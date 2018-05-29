@@ -1,0 +1,98 @@
+---
+title: "MGS_correlates_with_yeild"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readr)
+library(ggplot2)
+library(pheatmap)
+library(RColorBrewer)
+library(gplots)
+library(magrittr)
+library(lme4)
+library(lmerTest)
+library(RColorBrewer)
+```
+
+###read in files
+```{r,warning=FALSE}
+as.data.frame(read_delim("D:/EÅÌ/millet_meta/sequenced_RP_samples.txt",delim="\t",quote=""))->yield
+as.data.frame(read_delim("D:/EÅÌ/millet_meta/MGS/MGS.final.profile",delim="\t",quote=""))->mgs.tab
+rownames(mgs.tab)<-mgs.tab[,1]
+mgs.tab[,-1]->mgs.tab
+names(mgs.tab)[3]<-"YL.RS.Si051"
+```
+###retain rp samples
+```{r}
+mgs.tab[,yield$Samples]->mgs.rp.tab
+```
+###calculate correlation
+```{r,warning=FALSE}
+cor.result<-matrix(0,ncol=4,nrow=nrow(mgs.rp.tab))
+for (i in 1:nrow(mgs.rp.tab)){
+  cor.result[i,1]<-rownames(mgs.rp.tab)[i]
+  data.frame(abd=as.numeric(mgs.rp.tab[i,])*10000,yield=yield[,3],cluster=yield[,4])->new.tab
+  lmer(yield~abd+(1|cluster),new.tab)->glm0
+  summary(glm0)->summa.glm
+  if(nrow(summa.glm$coefficients)==2){
+  summa.glm$coefficients[2,1]->cor.result[i,2]
+  summa.glm$coefficients[2,5]->cor.result[i,3]
+  }
+}
+cor.result[,4]<-p.adjust(cor.result[,3],method = "BH")
+sig.mgs<-cor.result[which(cor.result[,4]<0.05&cor.result[,2]!=0),]
+```
+###taxonomy
+```{r,warning=FALSE}
+read.delim2("MGS.annotation.out",sep="\t",quote="",header=FALSE,stringsAsFactors=FALSE)->anno.out
+anno.out<-anno.out[,-8]
+rownames(anno.out)<-anno.out[,1]
+anno.out<-anno.out[,-1]
+as.data.frame(anno.out)->anno.out
+result.out<-matrix(0,nrow=nrow(anno.out),ncol=ncol(anno.out))
+for (i in 1:nrow(anno.out)){
+  for (j in 1:ncol(anno.out)){
+    unlist(strsplit(as.character(anno.out[i,j]),";"))->a
+    as.character(sapply(a,function(x) unlist(strsplit(x,","))[1]))->b
+    as.character(sapply(a,function(x) unlist(strsplit(x,","))[2]))->c
+    if(max(c)>0.5){
+      b[which.max(c)]->result.out[i,j]
+    }
+  }
+}
+result.out[which(result.out==0,arr.ind = TRUE)]<-"Unclassified"
+#result.out[which(result.out=="Unclassfied",arr.ind = TRUE)]<-"Unclassified"
+as.data.frame(result.out)->result.out
+sapply(result.out,function(x) sub("Unclassfied","Unclassified",x))->result.out
+as.data.frame(result.out)->result.out
+rownames(result.out)<-rownames(anno.out)
+result.out[sig.mgs[,1],]->mgs.tax
+apply(mgs.tax,1,function(x) {which(x!="Unclassified")%>%max()})->mgs.highest.lev
+mgs.highest.tax<-rep(0,length=nrow(mgs.tax))
+for (i in 1:nrow(mgs.tax)){
+  if(is.infinite(mgs.highest.lev[i])){mgs.highest.tax[i]<-"Unclassified"}
+  else{mgs.highest.tax[i]<-as.character(mgs.tax[i,mgs.highest.lev[i]])}
+}
+paste("MGS",mgs.highest.tax,1:nrow(mgs.tax),sep = "_")->mgs.tax.anno
+data.frame(taxonomy=mgs.tax.anno,row.names = rownames(mgs.tax),stringsAsFactors=FALSE)->mgs.tax.anno
+```
+
+###plot heatmap
+```{r}
+mycol<-brewer.pal(8,"Set3")
+yield_type<-data.frame(yield=yield[,2])
+yield_col<-list(yield = c(I = mycol[1], II=mycol[2],III=mycol[3],IV=mycol[4],V=mycol[5],VI=mycol[6]),corr=c(P=mycol[7],N=mycol[8]))
+rownames(yield_type)<-yield[,1]
+pon<-data.frame(corr=c(rep("P",length(sig.mgs[sig.mgs[,2]>0,1])),rep("N",length(sig.mgs[sig.mgs[,2]<0,1]))))
+rownames(pon)<-c(as.character(mgs.tax.anno[sig.mgs[,2]>0,1]),as.character(mgs.tax.anno[sig.mgs[,2]<0,1]))
+#retain_tab[c(positive.cor.kos,negative.cor.kos),]->ko_corr.tab
+mgs.rp.tab[c(sig.mgs[sig.mgs[,2]>0,1],sig.mgs[sig.mgs[,2]<0,1]),]->sig.mgs.profile
+rownames(sig.mgs.profile)<-mgs.tax.anno[rownames(sig.mgs.profile),]
+pheatmap(as.matrix(sig.mgs.profile),color=colorRampPalette(brewer.pal(11,"RdBu"))(100),cluster_cols = FALSE,cluster_rows = FALSE,scale="row",show_colnames = FALSE,annotation_col = yield_type,annotation_row = pon,annotation_colors = yield_col[c(1,2)],annotation_legend=FALSE,annotation_names_col = FALSE,annotation_names_row = FALSE,gaps_row = length(sig.mgs[sig.mgs[,2]>0,1]),fontsize_row = 4,border_color = NA)
+```
+
+
+
+

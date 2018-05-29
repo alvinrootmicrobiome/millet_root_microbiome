@@ -1,0 +1,19 @@
+---
+title: "detected_genes_by_subsampling"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(readr)
+library(ggplot2)
+```
+```{r}
+setwd("")
+as.data.frame(read_delim("compare.out",delim="\t",col_names=FALSE))->sub.tab
+as.character(sub.tab[,1])->sub.tab[,1]
+factor(sub.tab[,1],levels=1:18)->sub.tab[,1]
+sub.tab[,2]<-sub.tab[,2]/1000/1000
+ggplot(sub.tab,aes(X1,X2))+geom_boxplot(outlier.color =NA,fill="#fc8d62",alpha=0.7)+theme(panel.background = element_blank(),axis.line = element_line(colour="black"))
+```
+
+
