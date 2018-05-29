@@ -1,0 +1,34 @@
+---
+title: "mapping rate plot"
+author: "Alvin Zhang"
+date: "2017Äê10ÔÂ9ÈÕ"
+output: html_document
+---
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo=TRUE)
+library(ggplot2)
+library(readr)
+require(dplyr)
+read.delim2("assembly_summary.txt",sep="\t")->table
+names(table)[-1]<-c(90,92,94,95,96)
+reshape2::melt(table,id="Samples")->data4plot
+as.numeric(data4plot[,3])->data4plot[,3]
+names(data4plot)[-1]<-c("Identity","Mapping_Rates")
+tapply(data4plot[,3],data4plot[,2],mean)->idmean
+tapply(data4plot[,3],data4plot[,2],sd)->idsd
+paste(round(idmean,2),round(idsd,3),sep="¡À")->mesd
+gsize<-c("55M","59M","64M","67M","70M")
+mesd<-paste(mesd,gsize,sep="\n")
+data4plot$label[which(data4plot[,2]=="90")]<-mesd[1]
+data4plot$label[which(data4plot[,2]=="92")]<-mesd[2]
+data4plot$label[which(data4plot[,2]=="94")]<-mesd[3]
+data4plot$label[which(data4plot[,2]=="95")]<-mesd[4]
+data4plot$label[which(data4plot[,2]=="96")]<-mesd[5]
+unique(data4plot[,c(2,4)])->mytext
+mytext$Max<-tapply(data4plot[,3],data4plot[,2],max)
+pdf("mapping_rates_with_different_ids.pdf",width=7,height=4)
+mycols=rep("#66c2a5",5)
+ggplot(data4plot,mapping=aes(x=Identity,y=Mapping_Rates))+geom_boxplot(aes(fill="#B5DF87"))+ylim(0.45,0.6)+ylab("Mapping Rates")+xlab("Identity(%)")+theme(plot.title=element_text(hjust = 0.5),panel.background = element_blank(),axis.line=element_line(colour="black"))+labs(title="Mapping Rates with Different IDs")+geom_text(data=mytext,aes(x=Identity,y=Max+0.01,label=label),size=3.5,colour="black")+theme(legend.position = "none")+scale_fill_manual(values=mycols)
+dev.off()
+```

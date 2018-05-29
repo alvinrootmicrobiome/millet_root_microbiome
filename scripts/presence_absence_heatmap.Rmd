@@ -1,0 +1,32 @@
+---
+title: "PGP_functions_presence_absence_plot"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readr)
+library(pheatmap)
+source("Rscripts/multiple.R")
+library(RColorBrewer)
+```
+
+```{r,warning=FALSE}
+setwd("")
+read.delim("MGS_positive_corre_function_exists_lme.txt",sep="\t",quote="")->pb_pos_kos_mgs
+read.delim("PGP_functions.presence_absence_pos_mgs.matrix",sep="\t",quote="")->mgs_pgp_pb_pos
+read.delim("PGP_functions.presence_absence_neg_mgs.matrix",sep="\t",quote="")->mgs_pgp_pb_neg
+```
+```{r,warning=FALSE}
+pb_pos_kos_mgs[,!apply(pb_pos_kos_mgs,2,function(x) all(x==0))]->pb_pos_kos_mgs
+pheatmap(as.matrix(pb_pos_kos_mgs),color=c("#FFFFFF","#ABD9E8"),border_color = "black",treeheight_row=0,treeheight_col=0,legend=FALSE)
+
+rbind(mgs_pgp_pb_neg,mgs_pgp_pb_pos)->mgs_pgp_pb
+pon<-data.frame(corr=c(rep("N",nrow(mgs_pgp_pb_neg)),rep("P",nrow(mgs_pgp_pb_pos))))
+rownames(pon)<-rownames(mgs_pgp_pb)
+mycol<-brewer.pal(8,"Set3")
+col.list<-list(corr=c(P=mycol[7],N=mycol[8]))
+pheatmap(as.matrix(t(mgs_pgp_pb)),color=c("#FFFFFF","#ABD9E8"),border_color = "black",treeheight_row=0,treeheight_col=0,legend=FALSE,cluster_cols=FALSE,annotation_col = pon,annotation_colors = col.list[1],annotation_legend=FALSE,annotation_names_col = FALSE,annotation_names_row = FALSE)
+```
+
+
