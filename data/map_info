@@ -1,0 +1,508 @@
+map00010	KEGG PATHWAY: Glycolysis / Gluconeogenesis - Reference pathway
+map00020	KEGG PATHWAY: Citrate cycle (TCA cycle) - Reference pathway
+map00030	KEGG PATHWAY: Pentose phosphate pathway - Reference pathway
+map00040	KEGG PATHWAY: Pentose and glucuronate interconversions - Reference pathway
+map00051	KEGG PATHWAY: Fructose and mannose metabolism - Reference pathway
+map00052	KEGG PATHWAY: Galactose metabolism - Reference pathway
+map00053	KEGG PATHWAY: Ascorbate and aldarate metabolism - Reference pathway
+map00061	KEGG PATHWAY: Fatty acid biosynthesis - Reference pathway
+map00062	KEGG PATHWAY: Fatty acid elongation - Reference pathway
+map00071	KEGG PATHWAY: Fatty acid degradation - Reference pathway
+map00072	KEGG PATHWAY: Synthesis and degradation of ketone bodies - Reference pathway
+map00073	KEGG PATHWAY: Cutin, suberine and wax biosynthesis - Reference pathway
+map00100	KEGG PATHWAY: Steroid biosynthesis - Reference pathway
+map00120	KEGG PATHWAY: Primary bile acid biosynthesis - Reference pathway
+map00121	KEGG PATHWAY: Secondary bile acid biosynthesis - Reference pathway
+map00130	KEGG PATHWAY: Ubiquinone and other terpenoid-quinone biosynthesis - Reference pathway
+map00140	KEGG PATHWAY: Steroid hormone biosynthesis - Reference pathway
+map00190	KEGG PATHWAY: Oxidative phosphorylation - Reference pathway
+map00195	KEGG PATHWAY: Photosynthesis - Reference pathway
+map00196	KEGG PATHWAY: Photosynthesis - antenna proteins - Reference pathway
+map00220	KEGG PATHWAY: Arginine biosynthesis - Reference pathway
+map00230	KEGG PATHWAY: Purine metabolism - Reference pathway
+map00231	KEGG PATHWAY: Puromycin biosynthesis - Reference pathway
+map00232	KEGG PATHWAY: Caffeine metabolism - Reference pathway
+map00240	KEGG PATHWAY: Pyrimidine metabolism - Reference pathway
+map00250	KEGG PATHWAY: Alanine, aspartate and glutamate metabolism - Reference pathway
+map00253	KEGG PATHWAY: Tetracycline biosynthesis - Reference pathway
+map00254	KEGG PATHWAY: Aflatoxin biosynthesis - Reference pathway
+map00260	KEGG PATHWAY: Glycine, serine and threonine metabolism - Reference pathway
+map00261	KEGG PATHWAY: Monobactam biosynthesis - Reference pathway
+map00270	KEGG PATHWAY: Cysteine and methionine metabolism - Reference pathway
+map00280	KEGG PATHWAY: Valine, leucine and isoleucine degradation - Reference pathway
+map00281	KEGG PATHWAY: Geraniol degradation - Reference pathway
+map00290	KEGG PATHWAY: Valine, leucine and isoleucine biosynthesis - Reference pathway
+map00300	KEGG PATHWAY: Lysine biosynthesis - Reference pathway
+map00310	KEGG PATHWAY: Lysine degradation - Reference pathway
+map00311	KEGG PATHWAY: Penicillin and cephalosporin biosynthesis - Reference pathway
+map00330	KEGG PATHWAY: Arginine and proline metabolism - Reference pathway
+map00331	KEGG PATHWAY: Clavulanic acid biosynthesis - Reference pathway
+map00332	KEGG PATHWAY: Carbapenem biosynthesis - Reference pathway
+map00340	KEGG PATHWAY: Histidine metabolism - Reference pathway
+map00350	KEGG PATHWAY: Tyrosine metabolism - Reference pathway
+map00351	KEGG PATHWAY: DDT degradation - Reference pathway
+map00360	KEGG PATHWAY: Phenylalanine metabolism - Reference pathway
+map00361	KEGG PATHWAY: Chlorocyclohexane and chlorobenzene degradation - Reference pathway
+map00362	KEGG PATHWAY: Benzoate degradation - Reference pathway
+map00363	KEGG PATHWAY: Bisphenol degradation - Reference pathway
+map00364	KEGG PATHWAY: Fluorobenzoate degradation - Reference pathway
+map00365	KEGG PATHWAY: Furfural degradation - Reference pathway
+map00380	KEGG PATHWAY: Tryptophan metabolism - Reference pathway
+map00400	KEGG PATHWAY: Phenylalanine, tyrosine and tryptophan biosynthesis - Reference pathway
+map00401	KEGG PATHWAY: Novobiocin biosynthesis - Reference pathway
+map00402	KEGG PATHWAY: Benzoxazinoid biosynthesis - Reference pathway
+map00403	KEGG PATHWAY: Indole diterpene alkaloid biosynthesis - Reference pathway
+map00404	KEGG PATHWAY: Staurosporine biosynthesis - Reference pathway
+map00410	KEGG PATHWAY: beta-Alanine metabolism - Reference pathway
+map00430	KEGG PATHWAY: Taurine and hypotaurine metabolism - Reference pathway
+map00440	KEGG PATHWAY: Phosphonate and phosphinate metabolism - Reference pathway
+map00450	KEGG PATHWAY: Selenocompound metabolism - Reference pathway
+map00460	KEGG PATHWAY: Cyanoamino acid metabolism - Reference pathway
+map00471	KEGG PATHWAY: D-Glutamine and D-glutamate metabolism - Reference pathway
+map00472	KEGG PATHWAY: D-Arginine and D-ornithine metabolism - Reference pathway
+map00473	KEGG PATHWAY: D-Alanine metabolism - Reference pathway
+map00480	KEGG PATHWAY: Glutathione metabolism - Reference pathway
+map00500	KEGG PATHWAY: Starch and sucrose metabolism - Reference pathway
+map00510	KEGG PATHWAY: N-Glycan biosynthesis - Reference pathway
+map00511	KEGG PATHWAY: Other glycan degradation - Reference pathway
+map00512	KEGG PATHWAY: Mucin type O-glycan biosynthesis - Reference pathway
+map00513	KEGG PATHWAY: Various types of N-glycan biosynthesis - Reference pathway
+map00514	KEGG PATHWAY: Other types of O-glycan biosynthesis - Reference pathway
+map00515	KEGG PATHWAY: Mannose type O-glycan biosynthesis - Reference pathway
+map00520	KEGG PATHWAY: Amino sugar and nucleotide sugar metabolism - Reference pathway
+map00521	KEGG PATHWAY: Streptomycin biosynthesis - Reference pathway
+map00522	KEGG PATHWAY: Biosynthesis of 12-, 14- and 16-membered macrolides - Reference pathway
+map00523	KEGG PATHWAY: Polyketide sugar unit biosynthesis - Reference pathway
+map00524	KEGG PATHWAY: Neomycin, kanamycin and gentamicin biosynthesis - Reference pathway
+map00525	KEGG PATHWAY: Acarbose and validamycin biosynthesis - Reference pathway
+map00531	KEGG PATHWAY: Glycosaminoglycan degradation - Reference pathway
+map00532	KEGG PATHWAY: Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate - Reference pathway
+map00533	KEGG PATHWAY: Glycosaminoglycan biosynthesis - keratan sulfate - Reference pathway
+map00534	KEGG PATHWAY: Glycosaminoglycan biosynthesis - heparan sulfate / heparin - Reference pathway
+map00540	KEGG PATHWAY: Lipopolysaccharide biosynthesis - Reference pathway
+map00550	KEGG PATHWAY: Peptidoglycan biosynthesis - Reference pathway
+map00561	KEGG PATHWAY: Glycerolipid metabolism - Reference pathway
+map00562	KEGG PATHWAY: Inositol phosphate metabolism - Reference pathway
+map00563	KEGG PATHWAY: Glycosylphosphatidylinositol (GPI)-anchor biosynthesis - Reference pathway
+map00564	KEGG PATHWAY: Glycerophospholipid metabolism - Reference pathway
+map00565	KEGG PATHWAY: Ether lipid metabolism - Reference pathway
+map00590	KEGG PATHWAY: Arachidonic acid metabolism - Reference pathway
+map00591	KEGG PATHWAY: Linoleic acid metabolism - Reference pathway
+map00592	KEGG PATHWAY: alpha-Linolenic acid metabolism - Reference pathway
+map00600	KEGG PATHWAY: Sphingolipid metabolism - Reference pathway
+map00601	KEGG PATHWAY: Glycosphingolipid biosynthesis - lacto and neolacto series - Reference pathway
+map00603	KEGG PATHWAY: Glycosphingolipid biosynthesis - globo and isoglobo series - Reference pathway
+map00604	KEGG PATHWAY: Glycosphingolipid biosynthesis - ganglio series - Reference pathway
+map00620	KEGG PATHWAY: Pyruvate metabolism - Reference pathway
+map00621	KEGG PATHWAY: Dioxin degradation - Reference pathway
+map00622	KEGG PATHWAY: Xylene degradation - Reference pathway
+map00623	KEGG PATHWAY: Toluene degradation - Reference pathway
+map00624	KEGG PATHWAY: Polycyclic aromatic hydrocarbon degradation - Reference pathway
+map00625	KEGG PATHWAY: Chloroalkane and chloroalkene degradation - Reference pathway
+map00626	KEGG PATHWAY: Naphthalene degradation - Reference pathway
+map00627	KEGG PATHWAY: Aminobenzoate degradation - Reference pathway
+map00630	KEGG PATHWAY: Glyoxylate and dicarboxylate metabolism - Reference pathway
+map00633	KEGG PATHWAY: Nitrotoluene degradation - Reference pathway
+map00640	KEGG PATHWAY: Propanoate metabolism - Reference pathway
+map00642	KEGG PATHWAY: Ethylbenzene degradation - Reference pathway
+map00643	KEGG PATHWAY: Styrene degradation - Reference pathway
+map00650	KEGG PATHWAY: Butanoate metabolism - Reference pathway
+map00660	KEGG PATHWAY: C5-Branched dibasic acid metabolism - Reference pathway
+map00670	KEGG PATHWAY: One carbon pool by folate - Reference pathway
+map00680	KEGG PATHWAY: Methane metabolism - Reference pathway
+map00710	KEGG PATHWAY: Carbon fixation in photosynthetic organisms - Reference pathway
+map00720	KEGG PATHWAY: Carbon fixation pathways in prokaryotes - Reference pathway
+map00730	KEGG PATHWAY: Thiamine metabolism - Reference pathway
+map00740	KEGG PATHWAY: Riboflavin metabolism - Reference pathway
+map00750	KEGG PATHWAY: Vitamin B6 metabolism - Reference pathway
+map00760	KEGG PATHWAY: Nicotinate and nicotinamide metabolism - Reference pathway
+map00770	KEGG PATHWAY: Pantothenate and CoA biosynthesis - Reference pathway
+map00780	KEGG PATHWAY: Biotin metabolism - Reference pathway
+map00785	KEGG PATHWAY: Lipoic acid metabolism - Reference pathway
+map00790	KEGG PATHWAY: Folate biosynthesis - Reference pathway
+map00791	KEGG PATHWAY: Atrazine degradation - Reference pathway
+map00830	KEGG PATHWAY: Retinol metabolism - Reference pathway
+map00860	KEGG PATHWAY: Porphyrin and chlorophyll metabolism - Reference pathway
+map00900	KEGG PATHWAY: Terpenoid backbone biosynthesis - Reference pathway
+map00901	KEGG PATHWAY: Indole alkaloid biosynthesis - Reference pathway
+map00902	KEGG PATHWAY: Monoterpenoid biosynthesis - Reference pathway
+map00903	KEGG PATHWAY: Limonene and pinene degradation - Reference pathway
+map00904	KEGG PATHWAY: Diterpenoid biosynthesis - Reference pathway
+map00905	KEGG PATHWAY: Brassinosteroid biosynthesis - Reference pathway
+map00906	KEGG PATHWAY: Carotenoid biosynthesis - Reference pathway
+map00908	KEGG PATHWAY: Zeatin biosynthesis - Reference pathway
+map00909	KEGG PATHWAY: Sesquiterpenoid and triterpenoid biosynthesis - Reference pathway
+map00910	KEGG PATHWAY: Nitrogen metabolism - Reference pathway
+map00920	KEGG PATHWAY: Sulfur metabolism - Reference pathway
+map00930	KEGG PATHWAY: Caprolactam degradation - Reference pathway
+map00940	KEGG PATHWAY: Phenylpropanoid biosynthesis - Reference pathway
+map00941	KEGG PATHWAY: Flavonoid biosynthesis - Reference pathway
+map00942	KEGG PATHWAY: Anthocyanin biosynthesis - Reference pathway
+map00943	KEGG PATHWAY: Isoflavonoid biosynthesis - Reference pathway
+map00944	KEGG PATHWAY: Flavone and flavonol biosynthesis - Reference pathway
+map00945	KEGG PATHWAY: Stilbenoid, diarylheptanoid and gingerol biosynthesis - Reference pathway
+map00950	KEGG PATHWAY: Isoquinoline alkaloid biosynthesis - Reference pathway
+map00960	KEGG PATHWAY: Tropane, piperidine and pyridine alkaloid biosynthesis - Reference pathway
+map00965	KEGG PATHWAY: Betalain biosynthesis - Reference pathway
+map00966	KEGG PATHWAY: Glucosinolate biosynthesis - Reference pathway
+map00970	KEGG PATHWAY: Aminoacyl-tRNA biosynthesis - Reference pathway
+map00980	KEGG PATHWAY: Metabolism of xenobiotics by cytochrome P450 - Reference pathway
+map00981	KEGG PATHWAY: Insect hormone biosynthesis - Reference pathway
+map00982	KEGG PATHWAY: Drug metabolism - cytochrome P450 - Reference pathway
+map00983	KEGG PATHWAY: Drug metabolism - other enzymes - Reference pathway
+map00984	KEGG PATHWAY: Steroid degradation - Reference pathway
+map01010	KEGG PATHWAY: Overview of biosynthetic pathways - Reference pathway
+map01040	KEGG PATHWAY: Biosynthesis of unsaturated fatty acids - Reference pathway
+map01051	KEGG PATHWAY: Biosynthesis of ansamycins - Reference pathway
+map01052	KEGG PATHWAY: Type I polyketide structures - Reference pathway
+map01053	KEGG PATHWAY: Biosynthesis of siderophore group nonribosomal peptides - Reference pathway
+map01054	KEGG PATHWAY: Nonribosomal peptide structures - Reference pathway
+map01055	KEGG PATHWAY: Biosynthesis of vancomycin group antibiotics - Reference pathway
+map01056	KEGG PATHWAY: Biosynthesis of type II polyketide backbone - Reference pathway
+map01057	KEGG PATHWAY: Biosynthesis of type II polyketide products - Reference pathway
+map01058	KEGG PATHWAY: Acridone alkaloid biosynthesis - Reference pathway
+map01059	KEGG PATHWAY: Biosynthesis of enediyne antibiotics - Reference pathway
+map01060	KEGG PATHWAY: Biosynthesis of plant secondary metabolites - Reference pathway
+map01061	KEGG PATHWAY: Biosynthesis of phenylpropanoids - Reference pathway
+map01062	KEGG PATHWAY: Biosynthesis of terpenoids and steroids - Reference pathway
+map01063	KEGG PATHWAY: Biosynthesis of alkaloids derived from shikimate pathway - Reference pathway
+map01064	KEGG PATHWAY: Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid - Reference pathway
+map01065	KEGG PATHWAY: Biosynthesis of alkaloids derived from histidine and purine - Reference pathway
+map01066	KEGG PATHWAY: Biosynthesis of alkaloids derived from terpenoid and polyketide - Reference pathway
+map01070	KEGG PATHWAY: Biosynthesis of plant hormones - Reference pathway
+map01100	KEGG PATHWAY: Metabolic pathways - Reference pathway
+map01110	KEGG PATHWAY: Biosynthesis of secondary metabolites - Reference pathway
+map01120	KEGG PATHWAY: Microbial metabolism in diverse environments - Reference pathway
+map01130	KEGG PATHWAY: Biosynthesis of antibiotics - Reference pathway
+map01200	KEGG PATHWAY: Carbon metabolism - Reference pathway
+map01210	KEGG PATHWAY: 2-Oxocarboxylic acid metabolism - Reference pathway
+map01212	KEGG PATHWAY: Fatty acid metabolism - Reference pathway
+map01220	KEGG PATHWAY: Degradation of aromatic compounds - Reference pathway
+map01230	KEGG PATHWAY: Biosynthesis of amino acids - Reference pathway
+map01501	KEGG PATHWAY: beta-Lactam resistance - Reference pathway
+map01502	KEGG PATHWAY: Vancomycin resistance - Reference pathway
+map01503	KEGG PATHWAY: Cationic antimicrobial peptide (CAMP) resistance - Reference pathway
+map01521	KEGG PATHWAY: EGFR tyrosine kinase inhibitor resistance - Reference pathway
+map01522	KEGG PATHWAY: Endocrine resistance - Reference pathway
+map01523	KEGG PATHWAY: Antifolate resistance - Reference pathway
+map01524	KEGG PATHWAY: Platinum drug resistance - Reference pathway
+map02010	KEGG PATHWAY: ABC transporters - Reference pathway
+map02020	KEGG PATHWAY: Two-component system - Reference pathway
+map02024	KEGG PATHWAY: Quorum sensing - Reference pathway
+map02025	KEGG PATHWAY: Biofilm formation - Pseudomonas aeruginosa - Reference pathway
+map02026	KEGG PATHWAY: Biofilm formation - Escherichia coli - Reference pathway
+map02030	KEGG PATHWAY: Bacterial chemotaxis - Reference pathway
+map02040	KEGG PATHWAY: Flagellar assembly - Reference pathway
+map02060	KEGG PATHWAY: Phosphotransferase system (PTS) - Reference pathway
+map03008	KEGG PATHWAY: Ribosome biogenesis in eukaryotes - Reference pathway
+map03010	KEGG PATHWAY: Ribosome - Reference pathway
+map03013	KEGG PATHWAY: RNA transport - Reference pathway
+map03015	KEGG PATHWAY: mRNA surveillance pathway - Reference pathway
+map03018	KEGG PATHWAY: RNA degradation - Reference pathway
+map03020	KEGG PATHWAY: RNA polymerase - Reference pathway
+map03022	KEGG PATHWAY: Basal transcription factors - Reference pathway
+map03030	KEGG PATHWAY: DNA replication - Reference pathway
+map03040	KEGG PATHWAY: Spliceosome - Reference pathway
+map03050	KEGG PATHWAY: Proteasome - Reference pathway
+map03060	KEGG PATHWAY: Protein export - Reference pathway
+map03070	KEGG PATHWAY: Bacterial secretion system - Reference pathway
+map03320	KEGG PATHWAY: PPAR signaling pathway - Reference pathway
+map03410	KEGG PATHWAY: Base excision repair - Reference pathway
+map03420	KEGG PATHWAY: Nucleotide excision repair - Reference pathway
+map03430	KEGG PATHWAY: Mismatch repair - Reference pathway
+map03440	KEGG PATHWAY: Homologous recombination - Reference pathway
+map03450	KEGG PATHWAY: Non-homologous end-joining - Reference pathway
+map03460	KEGG PATHWAY: Fanconi anemia pathway - Reference pathway
+map04010	KEGG PATHWAY: MAPK signaling pathway - Reference pathway
+map04011	KEGG PATHWAY: MAPK signaling pathway - yeast - Reference pathway
+map04012	KEGG PATHWAY: ErbB signaling pathway - Reference pathway
+map04013	KEGG PATHWAY: MAPK signaling pathway - fly - Reference pathway
+map04014	KEGG PATHWAY: Ras signaling pathway - Reference pathway
+map04015	KEGG PATHWAY: Rap1 signaling pathway - Reference pathway
+map04016	KEGG PATHWAY: MAPK signaling pathway - plant - Reference pathway
+map04020	KEGG PATHWAY: Calcium signaling pathway - Reference pathway
+map04022	KEGG PATHWAY: cGMP-PKG signaling pathway - Reference pathway
+map04024	KEGG PATHWAY: cAMP signaling pathway - Reference pathway
+map04060	KEGG PATHWAY: Cytokine-cytokine receptor interaction - Reference pathway
+map04062	KEGG PATHWAY: Chemokine signaling pathway - Reference pathway
+map04064	KEGG PATHWAY: NF-kappa B signaling pathway - Reference pathway
+map04066	KEGG PATHWAY: HIF-1 signaling pathway - Reference pathway
+map04068	KEGG PATHWAY: FoxO signaling pathway - Reference pathway
+map04070	KEGG PATHWAY: Phosphatidylinositol signaling system - Reference pathway
+map04071	KEGG PATHWAY: Sphingolipid signaling pathway - Reference pathway
+map04072	KEGG PATHWAY: Phospholipase D signaling pathway - Reference pathway
+map04075	KEGG PATHWAY: Plant hormone signal transduction - Reference pathway
+map04080	KEGG PATHWAY: Neuroactive ligand-receptor interaction - Reference pathway
+map04110	KEGG PATHWAY: Cell cycle - Reference pathway
+map04111	KEGG PATHWAY: Cell cycle - yeast - Reference pathway
+map04112	KEGG PATHWAY: Cell cycle - Caulobacter - Reference pathway
+map04113	KEGG PATHWAY: Meiosis - yeast - Reference pathway
+map04114	KEGG PATHWAY: Oocyte meiosis - Reference pathway
+map04115	KEGG PATHWAY: p53 signaling pathway - Reference pathway
+map04120	KEGG PATHWAY: Ubiquitin mediated proteolysis - Reference pathway
+map04122	KEGG PATHWAY: Sulfur relay system - Reference pathway
+map04130	KEGG PATHWAY: SNARE interactions in vesicular transport - Reference pathway
+map04138	KEGG PATHWAY: Autophagy - yeast - Reference pathway
+map04139	KEGG PATHWAY: Mitophagy - yeast - Reference pathway
+map04140	KEGG PATHWAY: Autophagy - animal - Reference pathway
+map04141	KEGG PATHWAY: Protein processing in endoplasmic reticulum - Reference pathway
+map04142	KEGG PATHWAY: Lysosome - Reference pathway
+map04144	KEGG PATHWAY: Endocytosis - Reference pathway
+map04145	KEGG PATHWAY: Phagosome - Reference pathway
+map04146	KEGG PATHWAY: Peroxisome - Reference pathway
+map04150	KEGG PATHWAY: mTOR signaling pathway - Reference pathway
+map04151	KEGG PATHWAY: PI3K-Akt signaling pathway - Reference pathway
+map04152	KEGG PATHWAY: AMPK signaling pathway - Reference pathway
+map04210	KEGG PATHWAY: Apoptosis - Reference pathway
+map04211	KEGG PATHWAY: Longevity regulating pathway - Reference pathway
+map04212	KEGG PATHWAY: Longevity regulating pathway - worm - Reference pathway
+map04213	KEGG PATHWAY: Longevity regulating pathway - multiple species - Reference pathway
+map04214	KEGG PATHWAY: Apoptosis - fly - Reference pathway
+map04215	KEGG PATHWAY: Apoptosis - multiple species - Reference pathway
+map04260	KEGG PATHWAY: Cardiac muscle contraction - Reference pathway
+map04261	KEGG PATHWAY: Adrenergic signaling in cardiomyocytes - Reference pathway
+map04270	KEGG PATHWAY: Vascular smooth muscle contraction - Reference pathway
+map04310	KEGG PATHWAY: Wnt signaling pathway - Reference pathway
+map04320	KEGG PATHWAY: Dorso-ventral axis formation - Reference pathway
+map04330	KEGG PATHWAY: Notch signaling pathway - Reference pathway
+map04340	KEGG PATHWAY: Hedgehog signaling pathway - Reference pathway
+map04341	KEGG PATHWAY: Hedgehog signaling pathway - fly - Reference pathway
+map04350	KEGG PATHWAY: TGF-beta signaling pathway - Reference pathway
+map04360	KEGG PATHWAY: Axon guidance - Reference pathway
+map04370	KEGG PATHWAY: VEGF signaling pathway - Reference pathway
+map04371	KEGG PATHWAY: Apelin signaling pathway - Reference pathway
+map04380	KEGG PATHWAY: Osteoclast differentiation - Reference pathway
+map04390	KEGG PATHWAY: Hippo signaling pathway - Reference pathway
+map04391	KEGG PATHWAY: Hippo signaling pathway - fly - Reference pathway
+map04392	KEGG PATHWAY: Hippo signaling pathway -multiple species - Reference pathway
+map04510	KEGG PATHWAY: Focal adhesion - Reference pathway
+map04512	KEGG PATHWAY: ECM-receptor interaction - Reference pathway
+map04514	KEGG PATHWAY: Cell adhesion molecules (CAMs) - Reference pathway
+map04520	KEGG PATHWAY: Adherens junction - Reference pathway
+map04530	KEGG PATHWAY: Tight junction - Reference pathway
+map04540	KEGG PATHWAY: Gap junction - Reference pathway
+map04550	KEGG PATHWAY: Signaling pathways regulating pluripotency of stem cells - Reference pathway
+map04610	KEGG PATHWAY: Complement and coagulation cascades - Reference pathway
+map04611	KEGG PATHWAY: Platelet activation - Reference pathway
+map04612	KEGG PATHWAY: Antigen processing and presentation - Reference pathway
+map04614	KEGG PATHWAY: Renin-angiotensin system - Reference pathway
+map04620	KEGG PATHWAY: Toll-like receptor signaling pathway - Reference pathway
+map04621	KEGG PATHWAY: NOD-like receptor signaling pathway - Reference pathway
+map04622	KEGG PATHWAY: RIG-I-like receptor signaling pathway - Reference pathway
+map04623	KEGG PATHWAY: Cytosolic DNA-sensing pathway - Reference pathway
+map04624	KEGG PATHWAY: Toll and Imd signaling pathway - Reference pathway
+map04626	KEGG PATHWAY: Plant-pathogen interaction - Reference pathway
+map04630	KEGG PATHWAY: Jak-STAT signaling pathway - Reference pathway
+map04640	KEGG PATHWAY: Hematopoietic cell lineage - Reference pathway
+map04650	KEGG PATHWAY: Natural killer cell mediated cytotoxicity - Reference pathway
+map04657	KEGG PATHWAY: IL-17 signaling pathway - Reference pathway
+map04658	KEGG PATHWAY: Th1 and Th2 cell differentiation - Reference pathway
+map04659	KEGG PATHWAY: Th17 cell differentiation - Reference pathway
+map04660	KEGG PATHWAY: T cell receptor signaling pathway - Reference pathway
+map04662	KEGG PATHWAY: B cell receptor signaling pathway - Reference pathway
+map04664	KEGG PATHWAY: Fc epsilon RI signaling pathway - Reference pathway
+map04666	KEGG PATHWAY: Fc gamma R-mediated phagocytosis - Reference pathway
+map04668	KEGG PATHWAY: TNF signaling pathway - Reference pathway
+map04670	KEGG PATHWAY: Leukocyte transendothelial migration - Reference pathway
+map04672	KEGG PATHWAY: Intestinal immune network for IgA production - Reference pathway
+map04710	KEGG PATHWAY: Circadian rhythm - Reference pathway
+map04711	KEGG PATHWAY: Circadian rhythm - fly - Reference pathway
+map04712	KEGG PATHWAY: Circadian rhythm - plant - Reference pathway
+map04713	KEGG PATHWAY: Circadian entrainment - Reference pathway
+map04720	KEGG PATHWAY: Long-term potentiation - Reference pathway
+map04721	KEGG PATHWAY: Synaptic vesicle cycle - Reference pathway
+map04722	KEGG PATHWAY: Neurotrophin signaling pathway - Reference pathway
+map04723	KEGG PATHWAY: Retrograde endocannabinoid signaling - Reference pathway
+map04724	KEGG PATHWAY: Glutamatergic synapse - Reference pathway
+map04725	KEGG PATHWAY: Cholinergic synapse - Reference pathway
+map04726	KEGG PATHWAY: Serotonergic synapse - Reference pathway
+map04727	KEGG PATHWAY: GABAergic synapse - Reference pathway
+map04728	KEGG PATHWAY: Dopaminergic synapse - Reference pathway
+map04730	KEGG PATHWAY: Long-term depression - Reference pathway
+map04740	KEGG PATHWAY: Olfactory transduction - Reference pathway
+map04742	KEGG PATHWAY: Taste transduction - Reference pathway
+map04744	KEGG PATHWAY: Phototransduction - Reference pathway
+map04745	KEGG PATHWAY: Phototransduction - fly - Reference pathway
+map04750	KEGG PATHWAY: Inflammatory mediator regulation of TRP channels - Reference pathway
+map04810	KEGG PATHWAY: Regulation of actin cytoskeleton - Reference pathway
+map04910	KEGG PATHWAY: Insulin signaling pathway - Reference pathway
+map04911	KEGG PATHWAY: Insulin secretion - Reference pathway
+map04912	KEGG PATHWAY: GnRH signaling pathway - Reference pathway
+map04913	KEGG PATHWAY: Ovarian steroidogenesis - Reference pathway
+map04914	KEGG PATHWAY: Progesterone-mediated oocyte maturation - Reference pathway
+map04915	KEGG PATHWAY: Estrogen signaling pathway - Reference pathway
+map04916	KEGG PATHWAY: Melanogenesis - Reference pathway
+map04917	KEGG PATHWAY: Prolactin signaling pathway - Reference pathway
+map04918	KEGG PATHWAY: Thyroid hormone synthesis - Reference pathway
+map04919	KEGG PATHWAY: Thyroid hormone signaling pathway - Reference pathway
+map04920	KEGG PATHWAY: Adipocytokine signaling pathway - Reference pathway
+map04921	KEGG PATHWAY: Oxytocin signaling pathway - Reference pathway
+map04922	KEGG PATHWAY: Glucagon signaling pathway - Reference pathway
+map04923	KEGG PATHWAY: Regulation of lipolysis in adipocytes - Reference pathway
+map04924	KEGG PATHWAY: Renin secretion - Reference pathway
+map04925	KEGG PATHWAY: Aldosterone synthesis and secretion - Reference pathway
+map04930	KEGG PATHWAY: Type II diabetes mellitus - Reference pathway
+map04931	KEGG PATHWAY: Insulin resistance - Reference pathway
+map04932	KEGG PATHWAY: Non-alcoholic fatty liver disease (NAFLD) - Reference pathway
+map04933	KEGG PATHWAY: AGE-RAGE signaling pathway in diabetic complications - Reference pathway
+map04940	KEGG PATHWAY: Type I diabetes mellitus - Reference pathway
+map04950	KEGG PATHWAY: Maturity onset diabetes of the young - Reference pathway
+map04960	KEGG PATHWAY: Aldosterone-regulated sodium reabsorption - Reference pathway
+map04961	KEGG PATHWAY: Endocrine and other factor-regulated calcium reabsorption - Reference pathway
+map04962	KEGG PATHWAY: Vasopressin-regulated water reabsorption - Reference pathway
+map04964	KEGG PATHWAY: Proximal tubule bicarbonate reclamation - Reference pathway
+map04966	KEGG PATHWAY: Collecting duct acid secretion - Reference pathway
+map04970	KEGG PATHWAY: Salivary secretion - Reference pathway
+map04971	KEGG PATHWAY: Gastric acid secretion - Reference pathway
+map04972	KEGG PATHWAY: Pancreatic secretion - Reference pathway
+map04973	KEGG PATHWAY: Carbohydrate digestion and absorption - Reference pathway
+map04974	KEGG PATHWAY: Protein digestion and absorption - Reference pathway
+map04975	KEGG PATHWAY: Fat digestion and absorption - Reference pathway
+map04976	KEGG PATHWAY: Bile secretion - Reference pathway
+map04977	KEGG PATHWAY: Vitamin digestion and absorption - Reference pathway
+map04978	KEGG PATHWAY: Mineral absorption - Reference pathway
+map05010	KEGG PATHWAY: Alzheimer's disease - Reference pathway
+map05012	KEGG PATHWAY: Parkinson's disease - Reference pathway
+map05014	KEGG PATHWAY: Amyotrophic lateral sclerosis (ALS) - Reference pathway
+map05016	KEGG PATHWAY: Huntington's disease - Reference pathway
+map05020	KEGG PATHWAY: Prion diseases - Reference pathway
+map05030	KEGG PATHWAY: Cocaine addiction - Reference pathway
+map05031	KEGG PATHWAY: Amphetamine addiction - Reference pathway
+map05032	KEGG PATHWAY: Morphine addiction - Reference pathway
+map05033	KEGG PATHWAY: Nicotine addiction - Reference pathway
+map05034	KEGG PATHWAY: Alcoholism - Reference pathway
+map05100	KEGG PATHWAY: Bacterial invasion of epithelial cells - Reference pathway
+map05110	KEGG PATHWAY: Vibrio cholerae infection - Reference pathway
+map05111	KEGG PATHWAY: Biofilm formation - Vibrio cholerae - Reference pathway
+map05120	KEGG PATHWAY: Epithelial cell signaling in Helicobacter pylori infection - Reference pathway
+map05130	KEGG PATHWAY: Pathogenic Escherichia coli infection - Reference pathway
+map05131	KEGG PATHWAY: Shigellosis - Reference pathway
+map05132	KEGG PATHWAY: Salmonella infection - Reference pathway
+map05133	KEGG PATHWAY: Pertussis - Reference pathway
+map05134	KEGG PATHWAY: Legionellosis - Reference pathway
+map05140	KEGG PATHWAY: Leishmaniasis - Reference pathway
+map05142	KEGG PATHWAY: Chagas disease (American trypanosomiasis) - Reference pathway
+map05143	KEGG PATHWAY: African trypanosomiasis - Reference pathway
+map05144	KEGG PATHWAY: Malaria - Reference pathway
+map05145	KEGG PATHWAY: Toxoplasmosis - Reference pathway
+map05146	KEGG PATHWAY: Amoebiasis - Reference pathway
+map05150	KEGG PATHWAY: Staphylococcus aureus infection - Reference pathway
+map05152	KEGG PATHWAY: Tuberculosis - Reference pathway
+map05160	KEGG PATHWAY: Hepatitis C - Reference pathway
+map05161	KEGG PATHWAY: Hepatitis B - Reference pathway
+map05162	KEGG PATHWAY: Measles - Reference pathway
+map05164	KEGG PATHWAY: Influenza A - Reference pathway
+map05166	KEGG PATHWAY: HTLV-I infection - Reference pathway
+map05168	KEGG PATHWAY: Herpes simplex infection - Reference pathway
+map05169	KEGG PATHWAY: Epstein-Barr virus infection - Reference pathway
+map05200	KEGG PATHWAY: Pathways in cancer - Reference pathway
+map05202	KEGG PATHWAY: Transcriptional misregulation in cancer - Reference pathway
+map05203	KEGG PATHWAY: Viral carcinogenesis - Reference pathway
+map05204	KEGG PATHWAY: Chemical carcinogenesis - Reference pathway
+map05205	KEGG PATHWAY: Proteoglycans in cancer - Reference pathway
+map05206	KEGG PATHWAY: MicroRNAs in cancer - Reference pathway
+map05210	KEGG PATHWAY: Colorectal cancer - Reference pathway
+map05211	KEGG PATHWAY: Renal cell carcinoma - Reference pathway
+map05212	KEGG PATHWAY: Pancreatic cancer - Reference pathway
+map05213	KEGG PATHWAY: Endometrial cancer - Reference pathway
+map05214	KEGG PATHWAY: Glioma - Reference pathway
+map05215	KEGG PATHWAY: Prostate cancer - Reference pathway
+map05216	KEGG PATHWAY: Thyroid cancer - Reference pathway
+map05217	KEGG PATHWAY: Basal cell carcinoma - Reference pathway
+map05218	KEGG PATHWAY: Melanoma - Reference pathway
+map05219	KEGG PATHWAY: Bladder cancer - Reference pathway
+map05220	KEGG PATHWAY: Chronic myeloid leukemia - Reference pathway
+map05221	KEGG PATHWAY: Acute myeloid leukemia - Reference pathway
+map05222	KEGG PATHWAY: Small cell lung cancer - Reference pathway
+map05223	KEGG PATHWAY: Non-small cell lung cancer - Reference pathway
+map05224	KEGG PATHWAY: Breast cancer - Reference pathway
+map05230	KEGG PATHWAY: Central carbon metabolism in cancer - Reference pathway
+map05231	KEGG PATHWAY: Choline metabolism in cancer - Reference pathway
+map05310	KEGG PATHWAY: Asthma - Reference pathway
+map05320	KEGG PATHWAY: Autoimmune thyroid disease - Reference pathway
+map05321	KEGG PATHWAY: Inflammatory bowel disease (IBD) - Reference pathway
+map05322	KEGG PATHWAY: Systemic lupus erythematosus - Reference pathway
+map05323	KEGG PATHWAY: Rheumatoid arthritis - Reference pathway
+map05330	KEGG PATHWAY: Allograft rejection - Reference pathway
+map05332	KEGG PATHWAY: Graft-versus-host disease - Reference pathway
+map05340	KEGG PATHWAY: Primary immunodeficiency - Reference pathway
+map05410	KEGG PATHWAY: Hypertrophic cardiomyopathy (HCM) - Reference pathway
+map05412	KEGG PATHWAY: Arrhythmogenic right ventricular cardiomyopathy (ARVC) - Reference pathway
+map05414	KEGG PATHWAY: Dilated cardiomyopathy - Reference pathway
+map05416	KEGG PATHWAY: Viral myocarditis - Reference pathway
+map05418	KEGG PATHWAY: Fluid shear stress and atherosclerosis - Reference pathway
+map07011	KEGG PATHWAY: Penicillins - Reference pathway
+map07012	KEGG PATHWAY: Cephalosporins - parenteral agents - Reference pathway
+map07013	KEGG PATHWAY: Cephalosporins - oral agents - Reference pathway
+map07014	KEGG PATHWAY: Quinolones - Reference pathway
+map07015	KEGG PATHWAY: Local analgesics - Reference pathway
+map07016	KEGG PATHWAY: Sulfonamide derivatives - sulfa drugs - Reference pathway
+map07017	KEGG PATHWAY: Sulfonamide derivatives - diuretics - Reference pathway
+map07018	KEGG PATHWAY: Sulfonamide derivatives - hypoglycemic agents - Reference pathway
+map07019	KEGG PATHWAY: Tetracyclines - Reference pathway
+map07020	KEGG PATHWAY: Macrolides and ketolides - Reference pathway
+map07021	KEGG PATHWAY: Aminoglycosides - Reference pathway
+map07023	KEGG PATHWAY: Rifamycins - Reference pathway
+map07024	KEGG PATHWAY: HMG-CoA reductase inhibitors - Reference pathway
+map07025	KEGG PATHWAY: Quinolines - Reference pathway
+map07026	KEGG PATHWAY: Antifungal agents - Reference pathway
+map07027	KEGG PATHWAY: Antidepressants - Reference pathway
+map07028	KEGG PATHWAY: Antipsychotics - Reference pathway
+map07029	KEGG PATHWAY: Phenothiazines - Reference pathway
+map07030	KEGG PATHWAY: Anxiolytics - Reference pathway
+map07031	KEGG PATHWAY: Butyrophenones - Reference pathway
+map07032	KEGG PATHWAY: Hypnotics - Reference pathway
+map07033	KEGG PATHWAY: Anticonvulsants - Reference pathway
+map07034	KEGG PATHWAY: Eicosanoids - Reference pathway
+map07035	KEGG PATHWAY: Prostaglandins - Reference pathway
+map07036	KEGG PATHWAY: Calcium channel blocking drugs - Reference pathway
+map07037	KEGG PATHWAY: Antiarrhythmic drugs - Reference pathway
+map07038	KEGG PATHWAY: Antiulcer drugs - Reference pathway
+map07039	KEGG PATHWAY: Opioid analgesics - Reference pathway
+map07040	KEGG PATHWAY: Antineoplastics - alkylating agents - Reference pathway
+map07041	KEGG PATHWAY: Antineoplastics - antimetabolic agents - Reference pathway
+map07042	KEGG PATHWAY: Antineoplastics - agents from natural products - Reference pathway
+map07043	KEGG PATHWAY: Antineoplastics - hormones - Reference pathway
+map07044	KEGG PATHWAY: Antiviral agents - Reference pathway
+map07045	KEGG PATHWAY: Antineoplastics - protein kinases inhibitors - Reference pathway
+map07046	KEGG PATHWAY: Immunosuppressive agents - Reference pathway
+map07047	KEGG PATHWAY: Osteoporosis drugs - Reference pathway
+map07048	KEGG PATHWAY: Antimigraines - Reference pathway
+map07049	KEGG PATHWAY: Antithrombosis agents - Reference pathway
+map07050	KEGG PATHWAY: Antirheumatics - DMARDs and biological agents - Reference pathway
+map07051	KEGG PATHWAY: Antidiabetics - Reference pathway
+map07052	KEGG PATHWAY: Antidyslipidemic agents - Reference pathway
+map07053	KEGG PATHWAY: Anti-HIV agents - Reference pathway
+map07054	KEGG PATHWAY: Antiglaucoma agents - Reference pathway
+map07055	KEGG PATHWAY: Sulfonamide derivatives - overview - Reference pathway
+map07056	KEGG PATHWAY: Agents for Alzheimer-type dementia - Reference pathway
+map07057	KEGG PATHWAY: Antiparkinsonian agents - Reference pathway
+map07110	KEGG PATHWAY: Benzoic acid family - Reference pathway
+map07112	KEGG PATHWAY: 1,2-Diphenyl substitution family - Reference pathway
+map07114	KEGG PATHWAY: Naphthalene family - Reference pathway
+map07117	KEGG PATHWAY: Benzodiazepine family - Reference pathway
+map07211	KEGG PATHWAY: Serotonin receptor agonists/antagonists - Reference pathway
+map07212	KEGG PATHWAY: Histamine H1 receptor antagonists - Reference pathway
+map07213	KEGG PATHWAY: Dopamine receptor agonists/antagonists - Reference pathway
+map07214	KEGG PATHWAY: beta-Adrenergic receptor agonists/antagonists - Reference pathway
+map07215	KEGG PATHWAY: alpha-Adrenergic receptor agonists/antagonists - Reference pathway
+map07216	KEGG PATHWAY: Catecholamine transferase inhibitors - Reference pathway
+map07217	KEGG PATHWAY: Renin-angiotensin system inhibitors - Reference pathway
+map07218	KEGG PATHWAY: HIV protease inhibitors - Reference pathway
+map07219	KEGG PATHWAY: Cyclooxygenase inhibitors - Reference pathway
+map07220	KEGG PATHWAY: Cholinergic and anticholinergic drugs - Reference pathway
+map07221	KEGG PATHWAY: Nicotinic cholinergic receptor antagonists - Reference pathway
+map07222	KEGG PATHWAY: Peroxisome proliferator-activated receptor (PPAR) agonists - Reference pathway
+map07223	KEGG PATHWAY: Retinoic acid receptor (RAR) and retinoid X receptor (RXR) agonists/antagonists - Reference pathway
+map07224	KEGG PATHWAY: Opioid receptor agonists/antagonists - Reference pathway
+map07225	KEGG PATHWAY: Glucocorticoid and meneralocorticoid receptor agonists/antagonists - Reference pathway
+map07226	KEGG PATHWAY: Progesterone, androgen and estrogen receptor agonists/antagonists - Reference pathway
+map07227	KEGG PATHWAY: Histamine H2/H3 receptor agonists/antagonists - Reference pathway
+map07228	KEGG PATHWAY: Eicosanoid receptor agonists/antagonists - Reference pathway
+map07229	KEGG PATHWAY: Angiotensin receptor and endothelin receptor antagonists - Reference pathway
+map07230	KEGG PATHWAY: GABA-A receptor agonists/antagonists - Reference pathway
+map07231	KEGG PATHWAY: Sodium channel blocking drugs - Reference pathway
+map07232	KEGG PATHWAY: Potassium channel blocking and opening drugs - Reference pathway
+map07233	KEGG PATHWAY: Ion transporter inhibitors - Reference pathway
+map07234	KEGG PATHWAY: Neurotransmitter transporter inhibitors - Reference pathway
+map07235	KEGG PATHWAY: N-Metyl-D-aspartic acid receptor antagonists - Reference pathway

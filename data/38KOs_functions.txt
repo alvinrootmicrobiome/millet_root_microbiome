@@ -1,0 +1,32 @@
+K00270	Carbohydrate metabolism
+K00925	Pyruvate metabolism
+K00960	Transferases
+K01028	Transferases
+K01029	Transferases
+K01077	Folate biosynthesis
+K01617	Xenobiotics biodegradation and metabolism
+K01761	Amino acid metabolism
+K05565	Transporters
+K05566	Transporters
+K05568	Transporters
+K05569	Transporters
+K05832	Transporters
+K05833	Transporters
+K05913	Xenobiotics biodegradation and metabolism
+K05934	Transferases
+K06023	Transferases
+K07310	Selenocompound metabolism
+K08138	Transporters
+K09607	Metallo Peptidases
+K10190	Transporters
+K10938	Biofilm formation
+K10975	Transporters
+K11943	Xenobiotics biodegradation and metabolism
+K11947	Xenobiotics biodegradation and metabolism
+K14732	Metabolism of terpenoids and polyketides
+K14749	Xenobiotics biodegradation and metabolism
+K14940	Methane metabolism
+K18591	Folate biosynthesis
+K18892	Transporters
+K19960	Xenobiotics biodegradation and metabolism
+K20257	Phenazine biosynthesis
